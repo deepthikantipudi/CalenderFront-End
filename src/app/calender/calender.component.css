@@ -1,0 +1,28 @@
+.box {
+    position: relative;
+    margin-left: 20px;
+    }
+    .box:before{
+    position: absolute;
+    left: -20px;
+    content: "";
+    height:20px;
+    width:20px;
+    
+    
+    }
+    .box.red:before{
+    background-color:red;
+    }
+    .box.blue:before{
+    background-color:pink;
+    }
+    .box.white:before{
+    background-color:blue;
+    }
+    
+    .inline {
+    display: inline-block;
+    
+    
+    }

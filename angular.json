@@ -24,9 +24,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/@syncfusion/ej2-material-theme/styles/material.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+             
+
             ],
-            "scripts": []
+            "scripts": [
+              
+            ]
           },
           "configurations": {
             "production": {
@@ -90,8 +97,12 @@
             ],
             "styles": [
               "src/styles.css"
+              
+
             ],
-            "scripts": []
+            "scripts": [
+          
+            ]
           }
         },
         "lint": {
@@ -120,6 +131,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "calenderHealthTraverse"
 }
